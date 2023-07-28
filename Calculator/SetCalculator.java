@@ -1,9 +1,10 @@
+package Calculator;
 import java.util.ArrayList;
 
-import Attributes.Color;
-import Attributes.Num;
-import Attributes.Shading;
-import Attributes.Shape;
+import Calculator.Attributes.Color;
+import Calculator.Attributes.Num;
+import Calculator.Attributes.Shading;
+import Calculator.Attributes.Shape;
 
 public class SetCalculator {
     private Card[] cards;

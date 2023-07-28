@@ -1,4 +1,5 @@
-import Attributes.*;
+package Calculator;
+import Calculator.Attributes.*;
 public class Card {
 
     private Num num; 

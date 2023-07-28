@@ -1,4 +1,4 @@
-package Attributes;
+package Calculator.Attributes;
 public enum Shape{
     DIAMOND, 
     SQUIGGLE, 

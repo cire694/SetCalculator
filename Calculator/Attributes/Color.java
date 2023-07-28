@@ -1,4 +1,4 @@
-package Attributes;
+package Calculator.Attributes;
 public enum Color{
     RED, 
     GREEN, 
