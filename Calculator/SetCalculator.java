@@ -112,20 +112,21 @@ public class SetCalculator {
     
     public static void main(String[] args){
         Card[] cards = new Card[] {
+            new Card(Num.TWO, Color.PURPLE, Shading.SOLID, Shape.OVAL),
+            new Card(Num.ONE, Color.RED, Shading.STRIPE, Shape.OVAL),
+            new Card(Num.THREE,Color.RED, Shading.STRIPE, Shape.SQUIGGLE),
+            
+            new Card(Num.ONE, Color.PURPLE, Shading.SOLID, Shape.DIAMOND),
+            new Card(Num.THREE, Color.PURPLE, Shading.EMPTY, Shape.DIAMOND),
+            new Card(Num.TWO, Color.GREEN, Shading.STRIPE, Shape.DIAMOND),
+            
+            new Card(Num.ONE, Color.GREEN, Shading.STRIPE, Shape.DIAMOND),
+            new Card(Num.ONE, Color.GREEN, Shading.SOLID, Shape.DIAMOND),
             new Card(Num.TWO, Color.GREEN, Shading.SOLID, Shape.DIAMOND),
-            new Card(Num.ONE, Color.GREEN, Shading.SOLID, Shape.SQUIGGLE),
-            new Card(Num.TWO, Color.RED, Shading.SOLID, Shape.OVAL),
-            new Card(Num.THREE, Color.RED, Shading.EMPTY, Shape.DIAMOND),
 
-            new Card(Num.THREE, Color.PURPLE, Shading.STRIPE, Shape.OVAL),
-            new Card(Num.TWO, Color.RED, Shading.SOLID, Shape.SQUIGGLE),
-            new Card(Num.THREE, Color.GREEN, Shading.SOLID, Shape.OVAL),
-            new Card(Num.TWO, Color.GREEN, Shading.EMPTY, Shape.DIAMOND),
-
-            new Card(Num.TWO, Color.PURPLE, Shading.STRIPE, Shape.OVAL),
-            new Card(Num.TWO, Color.GREEN, Shading.EMPTY, Shape.OVAL),
-            new Card(Num.ONE, Color.PURPLE, Shading.STRIPE, Shape.DIAMOND),
-            new Card(Num.TWO, Color.PURPLE, Shading.STRIPE, Shape.DIAMOND),
+            new Card(Num.THREE, Color.RED, Shading.SOLID, Shape.DIAMOND),
+            new Card(Num.ONE, Color.GREEN, Shading.STRIPE, Shape.OVAL),
+            new Card(Num.ONE, Color.GREEN, Shading.EMPTY, Shape.OVAL),
 
         };
 
